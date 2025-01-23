@@ -1,0 +1,33 @@
+#
+//  .swiftlint.yml
+//  networkManagerTest
+//
+//  Created by Jyotsna Jayanteyee Pandey on 23/01/25.
+//
+
+# Disable rules
+disabled_rules:
+  - force_unwrapping
+  - trailing_whitespace
+
+# Opt into some rules
+opt_in_rules:
+  - empty_enum_arguments
+  - collection_alignment
+
+# Include directories to lint
+included:
+  - Source
+  - Tests
+
+# Exclude directories to ignore
+excluded:
+  - Carthage
+  - Pods
+
+# Set maximum line length
+line_length: 120
+
+# Other configuration options
+# Customize the number of allowed characters in a line, or any other rule
+force_cast: true
